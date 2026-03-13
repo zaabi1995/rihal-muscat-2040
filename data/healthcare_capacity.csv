@@ -1,0 +1,5 @@
+metric,value,source
+hospital_beds,4200,MOH Annual Report 2023
+beds_per_1000_current,2.8,Calculated
+who_benchmark_per_1000,3.0,WHO Global Health Observatory
+gcc_average_per_1000,2.2,WHO EMRO Region Report

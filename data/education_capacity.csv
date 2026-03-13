@@ -1,0 +1,5 @@
+metric,value,source
+total_schools,550,Ministry of Education 2023
+avg_school_capacity,500,MOE Standard
+school_age_pct,0.18,NCSI Demographic Data
+unesco_class_size,25,UNESCO Institute for Statistics
