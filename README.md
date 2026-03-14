@@ -1,11 +1,17 @@
 # Muscat 2040 — Growth & Infrastructure Analysis
 
+> **[View All Submissions — alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
+
+![Showcase](screenshots/showcase-main.png)
+
+**Live Dashboard:** [alizaabi.om/rihal-codestack/muscat-2040](https://alizaabi.om/rihal-codestack/muscat-2040/)
+
+---
+
 ![Rihal CODESTACKER 2026](https://img.shields.io/badge/Rihal%20CODESTACKER%202026-Challenge%20%236%20%7C%20Data%20Analytics-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-
-**Live Dashboard**: [https://alizaabi.om/rihal-codestack/muscat-2040/](https://alizaabi.om/rihal-codestack/muscat-2040/)
 
 ---
 
@@ -140,3 +146,11 @@ muscat-2040/
 
 **Ali Al Zaabi**
 Submitted for Rihal CODESTACKER 2026 — Challenge #6: Data Analytics
+
+---
+
+## Other Challenges
+
+- [Visit Oman](https://github.com/zaabi1995/rihal-visit-oman) — Challenge #1: Frontend Development
+- [FlowCare API](https://github.com/zaabi1995/rihal-flowcare) — Challenge #2: Backend Development
+- [DE Pipeline](https://github.com/zaabi1995/rihal-de-pipeline) — Challenge #4: Data Engineering
