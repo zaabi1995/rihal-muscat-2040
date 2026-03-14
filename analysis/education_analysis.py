@@ -16,7 +16,7 @@ Data sources:
 import pandas as pd
 
 
-# Current capacity — Muscat Governorate estimated
+# Current capacity - Muscat Governorate estimated
 # National: 1,268 government schools (MOE 2023/2024)
 # Muscat has ~25% of national schools (est. based on student population share)
 CURRENT_SCHOOLS = 317  # 1,268 * 0.25

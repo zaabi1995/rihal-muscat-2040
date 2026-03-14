@@ -298,7 +298,7 @@ st.html("""<div style="
 
         <p style="color: #CBD5E1; font-size: 0.95rem; margin: 0; max-width: 700px; line-height: 1.6;">
             Interactive planning model built on <strong style="color:#00DE51;">official NCSI Population Projections
-            (2020–2040)</strong> — analyzing Muscat Governorate's healthcare and education
+            (2020–2040)</strong> - analyzing Muscat Governorate's healthcare and education
             infrastructure needs through 2040.
         </p>
     </div>
@@ -332,7 +332,7 @@ st.markdown("""
             <div style="color: #94A3B8; font-size: 0.78rem; text-transform: uppercase;
                         letter-spacing: 0.05em; margin-bottom: 0.2rem;">Healthcare Gap</div>
             <div style="color: #F8FAFC; font-weight: 600; font-size: 0.9rem;">
-                Need <strong style="color:#F97316;">5,000+ new beds</strong> by 2040 —
+                Need <strong style="color:#F97316;">5,000+ new beds</strong> by 2040 -
                 equivalent to 10 major hospitals
             </div>
         </div>
@@ -340,7 +340,7 @@ st.markdown("""
             <div style="color: #94A3B8; font-size: 0.78rem; text-transform: uppercase;
                         letter-spacing: 0.05em; margin-bottom: 0.2rem;">Education Gap</div>
             <div style="color: #F8FAFC; font-weight: 600; font-size: 0.9rem;">
-                Require <strong style="color:#8B5CF6;">700+ new schools</strong> —
+                Require <strong style="color:#8B5CF6;">700+ new schools</strong> -
                 37 new schools per year until 2040
             </div>
         </div>
@@ -499,7 +499,7 @@ with col_breakdown:
 
     st.markdown("<div style='height:0.5rem'></div>", unsafe_allow_html=True)
     st.info(
-        "NCSI projects Muscat absorbing the largest national share — "
+        "NCSI projects Muscat absorbing the largest national share - "
         "primarily driven by **expatriate inflow** tied to economic development. "
         "Life expectancy rises from 76.2 → **79.8 years** by 2040."
     )
@@ -648,7 +648,7 @@ with tab_muscat:
 
 # Comparison bar chart: current vs projected
 st.markdown("<div style='height:1rem'></div>", unsafe_allow_html=True)
-st.markdown("<div style='font-weight:600; color:#94A3B8; font-size:0.85rem; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.6rem;'>Current vs Projected — Scenario Comparison</div>", unsafe_allow_html=True)
+st.markdown("<div style='font-weight:600; color:#94A3B8; font-size:0.85rem; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.6rem;'>Current vs Projected - Scenario Comparison</div>", unsafe_allow_html=True)
 
 col_bar, col_table = st.columns([1, 1])
 
@@ -807,7 +807,7 @@ with col_hc2:
     st.metric("New 500-Bed Hospitals Needed", str(hc_summ["new_hospitals_needed"]))
     st.info(
         f"At **{beds_benchmark:.1f} beds per 1,000**, Muscat needs "
-        f"**{hc_summ['beds_needed_2040']:,} beds** by 2040 — "
+        f"**{hc_summ['beds_needed_2040']:,} beds** by 2040 - "
         f"a gap of **{hc_summ['gap_2040']:,}** from current capacity."
     )
 
@@ -904,7 +904,7 @@ with col_ed2:
     st.metric("New Schools per Year", str(edu_summ["new_schools_per_year"]))
     st.info(
         f"With **{school_age_pct*100:.0f}% school-age population**, Muscat needs "
-        f"**{edu_summ['schools_needed_2040']}** schools by 2040 — "
+        f"**{edu_summ['schools_needed_2040']}** schools by 2040 - "
         f"**{edu_summ['gap_2040']}** more than today."
     )
 
@@ -917,7 +917,7 @@ st.markdown("""
 <div class="section-header">
     <span class="section-badge">Section 4</span>
     <span style="font-size: 1.3rem; font-weight: 700; color: #F8FAFC;">
-        Sensitivity Analysis — Custom Growth Rates
+        Sensitivity Analysis - Custom Growth Rates
     </span>
 </div>
 """, unsafe_allow_html=True)
@@ -1001,10 +1001,10 @@ st.markdown(
         margin-top: 0.5rem;
     ">
         <div style="font-size: 1rem; font-weight: 700; color: #F8FAFC; margin-bottom: 0.4rem;">
-            Muscat 2040 — Growth &amp; Infrastructure Analysis
+            Muscat 2040 - Growth &amp; Infrastructure Analysis
         </div>
         <div style="font-size: 0.8rem; color: #64748B; margin-bottom: 0.3rem;">
-            Built for <strong style="color:#009BC1;">Rihal CODESTACKER 2026</strong> — Data Analytics Challenge
+            Built for <strong style="color:#009BC1;">Rihal CODESTACKER 2026</strong> - Data Analytics Challenge
         </div>
         <div style="font-size: 0.75rem; color: #475569;">
             Data Sources: NCSI Population Projections (2020-2040) &bull; Ministry of Health &bull;

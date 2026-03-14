@@ -27,7 +27,7 @@
 | Low growth natural rate | 2.0% | Economic slowdown scenario, fertility decline |
 | Low growth migration rate | 0.0% | Net zero migration under aggressive Omanization |
 | Current hospital beds (Muscat) | 2,692 | Estimated: 35% of national 7,691 beds (MOH 2023) |
-| Current beds per 1,000 | ~1.8 | 2,692 / 1,456 = 1.85 — 40% below WHO benchmark |
+| Current beds per 1,000 | ~1.8 | 2,692 / 1,456 = 1.85 - 40% below WHO benchmark |
 | WHO bed benchmark | 3.0 per 1,000 | WHO recommendation for adequate coverage |
 | Current schools (Muscat) | 317 | Estimated: 25% of national 1,268 schools (MOE 2023) |
 | Average school capacity | 615 students | Oman actual: 782,818 students / 1,268 schools = 617 |
@@ -104,7 +104,7 @@ Growth rate is varied from 1.0% to 6.0% in 0.5% increments while holding migrati
 
 ## 4. Limitations
 
-1. **Linear growth rate assumption.** Real population growth is non-linear — it may accelerate with mega-projects (SOHAR FZ, Duqm spillover) or decelerate with economic cycles. The three scenarios partially address this.
+1. **Linear growth rate assumption.** Real population growth is non-linear - it may accelerate with mega-projects (SOHAR FZ, Duqm spillover) or decelerate with economic cycles. The three scenarios partially address this.
 
 2. **Fixed infrastructure baseline.** The model assumes current capacity remains unchanged. In reality, some expansion is already planned or underway. The gap figures should be interpreted as "additional beyond what exists today."
 

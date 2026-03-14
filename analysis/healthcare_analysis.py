@@ -17,7 +17,7 @@ Data sources:
 import pandas as pd
 
 
-# Current capacity — Muscat Governorate estimated
+# Current capacity - Muscat Governorate estimated
 # National: 7,691 beds across 92 hospitals (MOH Annual Report 2023)
 # Muscat has ~35% of national capacity (est. based on population share + concentration)
 CURRENT_HOSPITAL_BEDS = 2_692  # 7,691 * 0.35

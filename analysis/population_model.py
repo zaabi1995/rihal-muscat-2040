@@ -39,7 +39,7 @@ NCSI_NATIONAL = {
     "Moderate Growth": {
         "fertility": 3.3,
         "milestones": {2020: 4_471_148, 2025: 5_300_000, 2030: 6_100_000, 2035: 7_100_000, 2040: 8_300_000},
-        "description": "NCSI baseline — official planning scenario",
+        "description": "NCSI baseline - official planning scenario",
     },
     "High Growth": {
         "fertility": 4.0,
@@ -72,13 +72,13 @@ MUSCAT_SHARE_2040 = {
 
 SCENARIOS = {
     "Moderate Growth": {
-        "description": "NCSI official baseline (fertility 3.3) — 8.3M national by 2040",
+        "description": "NCSI official baseline (fertility 3.3) - 8.3M national by 2040",
     },
     "High Growth": {
-        "description": "NCSI high fertility (4.0) + Vision 2040 boom — 8.7M national",
+        "description": "NCSI high fertility (4.0) + Vision 2040 boom - 8.7M national",
     },
     "Low Growth": {
-        "description": "NCSI low fertility (2.8) + aggressive Omanization — 8.1M national",
+        "description": "NCSI low fertility (2.8) + aggressive Omanization - 8.1M national",
     },
 }
 
