@@ -23,21 +23,23 @@ BASELINE_POPULATION = 1_455_680
 TARGET_YEAR = 2040
 
 # Pre-defined scenarios
+# Calibrated against NCSI population projections and Ministry of Housing
+# Muscat 2040 target of ~2.5M. Base case aligns with official planning.
 SCENARIOS = {
     "Base Case": {
-        "growth_rate": 0.035,
+        "growth_rate": 0.030,
         "migration_rate": 0.005,
-        "description": "Historical trend continuation",
+        "description": "Aligned with NCSI/MOH 2.5M Muscat target",
     },
     "High Growth": {
-        "growth_rate": 0.045,
+        "growth_rate": 0.040,
         "migration_rate": 0.010,
-        "description": "Vision 2040 economic boom, mega projects",
+        "description": "Vision 2040 boom, mega projects, high expat inflow",
     },
     "Low Growth": {
         "growth_rate": 0.020,
         "migration_rate": 0.000,
-        "description": "Economic slowdown, Omanization pressure",
+        "description": "Economic slowdown, aggressive Omanization",
     },
 }
 

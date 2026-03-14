@@ -5,6 +5,6 @@ total_students_oman,782818,MOE 2023/2024 (omannews.gov.om/topics/en/79/show/1138
 omanisation_rate_teachers,0.875,MOE 2023/2024
 muscat_share_of_schools,0.25,Estimated - Muscat has ~25% of national schools
 muscat_schools,317,Estimated (1268 x 0.25)
-avg_school_capacity,500,MOE Standard
+avg_school_capacity,615,Oman actual average (782818 students / 1268 schools)
 school_age_pct,0.18,NCSI Demographic Data (ages 5-18 as % of total pop)
 unesco_class_size,25,UNESCO Institute for Statistics

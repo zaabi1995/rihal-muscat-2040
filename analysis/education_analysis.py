@@ -20,7 +20,7 @@ import pandas as pd
 # National: 1,268 government schools (MOE 2023/2024)
 # Muscat has ~25% of national schools (est. based on student population share)
 CURRENT_SCHOOLS = 317  # 1,268 * 0.25
-AVG_SCHOOL_CAPACITY = 500
+AVG_SCHOOL_CAPACITY = 615  # Oman avg: 782,818 students / 1,268 schools ≈ 615
 CURRENT_YEAR = 2023
 
 # Demographics

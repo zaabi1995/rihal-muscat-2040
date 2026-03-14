@@ -62,7 +62,7 @@ growth_rate = st.sidebar.slider(
     "Natural Growth Rate (%)",
     min_value=1.0,
     max_value=6.0,
-    value=3.5,
+    value=3.0,
     step=0.1,
     help="Annual natural population growth rate",
 ) / 100
@@ -104,9 +104,9 @@ avg_school_capacity = st.sidebar.slider(
     "Average School Capacity",
     min_value=300,
     max_value=800,
-    value=500,
-    step=50,
-    help="Average number of students per school",
+    value=615,
+    step=5,
+    help="Oman average: ~615 students per school (MOE 2023)",
 )
 
 st.sidebar.markdown("---")
@@ -209,9 +209,9 @@ with st.expander("Historical Growth Rates (validation)"):
     )
     st.dataframe(cagr_df, use_container_width=True, hide_index=True)
     st.caption(
-        "The 2010-2020 period saw 5.46% CAGR driven by infrastructure mega-projects "
-        "and expatriate labor inflows. The base case of 4.0% combined rate is conservative "
-        "relative to recent history."
+        "The 2010-2020 period saw 5.3% CAGR driven by infrastructure mega-projects "
+        "and expatriate labor inflows. The base case of 3.5% combined rate is aligned "
+        "with the Ministry of Housing's 2.5M Muscat target for 2040."
     )
 
 st.markdown("---")
