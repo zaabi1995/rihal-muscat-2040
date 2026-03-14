@@ -2,7 +2,8 @@
 
 > **[View All Submissions — alizaabi.om/rihal-codestack](https://alizaabi.om/rihal-codestack/)**
 
-![Showcase](screenshots/showcase-main.png)
+![Showcase](screenshots/showcase-hero.png)
+![Challenges](screenshots/showcase-challenges.png)
 
 **Live Dashboard:** [alizaabi.om/rihal-codestack/muscat-2040](https://alizaabi.om/rihal-codestack/muscat-2040/)
 
