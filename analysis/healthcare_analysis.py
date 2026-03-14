@@ -5,7 +5,11 @@ Calculates hospital bed requirements based on population projections
 and WHO/GCC benchmarks.
 
 Data sources:
-- MOH Annual Report 2023 (current capacity)
+- MOH Annual Health Report 2023: 92 hospitals nationally, 7,691 beds total
+  (50 MOH hospitals with 5,024 beds + private/other)
+  Source: moh.gov.om, omannews.gov.om/topics/en/79/show/118135
+- National bed ratio: 14.9 per 10,000 (1.49 per 1,000) as of 2023
+- Muscat estimated share: ~35% of national capacity (largest governorate)
 - WHO Global Health Observatory (benchmarks)
 - WHO EMRO Region Report (GCC averages)
 """
@@ -13,14 +17,16 @@ Data sources:
 import pandas as pd
 
 
-# Current capacity
-CURRENT_HOSPITAL_BEDS = 4_200
+# Current capacity — Muscat Governorate estimated
+# National: 7,691 beds across 92 hospitals (MOH Annual Report 2023)
+# Muscat has ~35% of national capacity (est. based on population share + concentration)
+CURRENT_HOSPITAL_BEDS = 2_692  # 7,691 * 0.35
 CURRENT_YEAR = 2023
 
 # Benchmarks (beds per 1,000 population)
 WHO_BENCHMARK = 3.0
 GCC_AVERAGE = 2.2
-OMAN_CURRENT = 1.8
+OMAN_CURRENT_PER_1000 = 1.49  # 14.9 per 10,000 (MOH 2023)
 
 
 def calculate_bed_demand(

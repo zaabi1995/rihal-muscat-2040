@@ -5,7 +5,10 @@ Calculates school requirements based on population projections
 and school-age demographic ratios.
 
 Data sources:
-- Ministry of Education 2023 (current capacity)
+- MOE Annual Statistics Book 2023/2024: 1,268 government schools nationally
+  60,618 teachers (87.5% Omani), 782,818 students
+  Source: main.moe.gov.om, omannews.gov.om
+- Muscat estimated share: ~25% of national schools
 - NCSI Demographic Data (age distribution)
 - UNESCO Institute for Statistics (class size benchmarks)
 """
@@ -13,8 +16,10 @@ Data sources:
 import pandas as pd
 
 
-# Current capacity
-CURRENT_SCHOOLS = 550
+# Current capacity — Muscat Governorate estimated
+# National: 1,268 government schools (MOE 2023/2024)
+# Muscat has ~25% of national schools (est. based on student population share)
+CURRENT_SCHOOLS = 317  # 1,268 * 0.25
 AVG_SCHOOL_CAPACITY = 500
 CURRENT_YEAR = 2023
 

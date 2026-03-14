@@ -112,7 +112,7 @@ avg_school_capacity = st.sidebar.slider(
 st.sidebar.markdown("---")
 st.sidebar.markdown(
     "**Data Sources:** NCSI, MOH, MOE, WHO, UNESCO  \n"
-    "**Baseline:** 1.5M population (2023)"
+    "**Baseline:** 1.46M population (2023)"
 )
 
 # --- Custom projection from sidebar ---

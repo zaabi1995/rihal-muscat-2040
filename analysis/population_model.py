@@ -6,18 +6,20 @@ and net migration components to project population from 2023 to 2040
 under three scenarios.
 
 Data sources:
-- NCSI Census 2003, 2010
-- NCSI Statistical Yearbook 2020
-- NCSI Estimate 2023
+- NCSI Census 2003: 632,073 (citypopulation.de)
+- NCSI Census 2010: 775,878 (citypopulation.de)
+- NCSI Census 2020: 1,302,440 (citypopulation.de)
+- NCSI Yearbook 2024: 1,455,680 for 2023 (gulfmigration.grc.net)
+- NCSI via ONA Feb 2025: ~1,500,000 (omannews.gov.om)
 """
 
 import pandas as pd
 import numpy as np
 
 
-# Baseline
+# Baseline — using 2023 NCSI yearbook figure (Omani 575,171 + Expat 880,509)
 BASELINE_YEAR = 2023
-BASELINE_POPULATION = 1_500_000
+BASELINE_POPULATION = 1_455_680
 TARGET_YEAR = 2040
 
 # Pre-defined scenarios
@@ -117,10 +119,10 @@ def calculate_historical_cagr() -> dict:
     to validate our assumptions.
     """
     data_points = [
-        (2003, 632_000),
-        (2010, 775_878),
-        (2020, 1_320_000),
-        (2023, 1_500_000),
+        (2003, 632_073),   # NCSI Census 2003
+        (2010, 775_878),   # NCSI Census 2010
+        (2020, 1_302_440), # NCSI Census 2020
+        (2023, 1_455_680), # NCSI Yearbook 2024 (575,171 Omani + 880,509 expat)
     ]
 
     cagrs = {}
