@@ -52,6 +52,13 @@ GREEN = "#00DE51"
 CORAL = "#F97316"
 PURPLE = "#8B5CF6"
 LIGHT_TEAL = "#00DE51"
+
+def hex_to_rgba(hex_color, alpha=0.04):
+    """Convert hex color to rgba string."""
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r},{g},{b},{alpha})"
+
 SCENARIO_COLORS = {
     "Moderate Growth": TEAL,
     "High Growth": CORAL,
@@ -72,12 +79,6 @@ CHART_LAYOUT = dict(
         gridcolor="rgba(255,255,255,0.06)",
         linecolor="rgba(255,255,255,0.1)",
         tickfont=dict(color="#94A3B8"),
-    ),
-    legend=dict(
-        bgcolor="rgba(0,0,0,0.3)",
-        bordercolor="rgba(255,255,255,0.1)",
-        borderwidth=1,
-        font=dict(color="#E2E8F0"),
     ),
     hoverlabel=dict(
         bgcolor="#1E2D45",
@@ -247,8 +248,7 @@ hr {
 # ============================================================
 # HEADER BANNER
 # ============================================================
-st.markdown("""
-<div style="
+st.html("""<div style="
     background: linear-gradient(135deg, #0D1B2A 0%, #1A1A2E 30%, #0F2744 60%, #003A4F 100%);
     border: 1px solid rgba(0,155,193,0.3);
     border-radius: 16px;
@@ -258,7 +258,6 @@ st.markdown("""
     overflow: hidden;
     box-shadow: 0 8px 40px rgba(0,0,0,0.5);
 ">
-    <!-- Decorative glow blobs -->
     <div style="
         position: absolute; top: -60px; right: -60px;
         width: 250px; height: 250px;
@@ -304,7 +303,7 @@ st.markdown("""
         </p>
     </div>
 </div>
-""", unsafe_allow_html=True)
+""")
 
 # ============================================================
 # EXECUTIVE SUMMARY
@@ -551,7 +550,7 @@ with tab_national:
             name=name, mode="lines",
             line=dict(color=color, width=2.5),
             fill="tozeroy",
-            fillcolor=color.replace("#", "rgba(").rstrip(")") + ",0.04)" if color.startswith("#") else color,
+            fillcolor=hex_to_rgba(color, 0.04),
             hovertemplate="<b>%{x}</b><br>Population: <b>%{y:,.0f}</b><extra>" + name + "</extra>",
         ))
 
@@ -600,7 +599,7 @@ with tab_muscat:
             name=name, mode="lines",
             line=dict(color=color, width=2.5),
             fill="tozeroy",
-            fillcolor=color.replace("#", "rgba(").rstrip(")") + ",0.04)" if color.startswith("#") else color,
+            fillcolor=hex_to_rgba(color, 0.04),
             hovertemplate="<b>%{x}</b><br>Muscat Pop: <b>%{y:,.0f}</b><extra>" + name + "</extra>",
         ))
 
