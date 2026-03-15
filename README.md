@@ -98,7 +98,7 @@ Opens at `http://localhost:8501`.
 
 **Infrastructure demand:** Simple ratio models - beds per 1,000 population (WHO benchmark), schools per school-age cohort (18% of total, 500 students per school). Not intended to replace detailed facility planning, but to show the scale of the challenge.
 
-Full details in the [Technical Appendix](docs/technical_appendix.md).
+Full details in the [Technical Appendix](docs/technical_appendix.md) and the [Executive Summary (PDF)](docs/Muscat2040-Executive-Summary.pdf).
 
 ---
 
@@ -134,6 +134,7 @@ muscat-2040/
 │   └── education_analysis.py   # School demand model
 ├── data/                       # Baseline CSVs
 ├── docs/
+│   ├── Muscat2040-Executive-Summary.pdf  # Executive summary (PDF)
 │   ├── executive_summary.md    # 2-page brief for decision makers
 │   └── technical_appendix.md   # Full methodology
 ├── screenshots/

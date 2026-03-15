@@ -306,6 +306,23 @@ st.html("""<div style="
 """)
 
 # ============================================================
+# PDF DOWNLOAD BUTTON
+# ============================================================
+pdf_path = "docs/Muscat2040-Executive-Summary.pdf"
+try:
+    with open(pdf_path, "rb") as pdf_file:
+        pdf_data = pdf_file.read()
+    st.download_button(
+        label="Download Executive Summary (PDF)",
+        data=pdf_data,
+        file_name="Muscat2040-Executive-Summary.pdf",
+        mime="application/pdf",
+        type="primary",
+    )
+except FileNotFoundError:
+    pass
+
+# ============================================================
 # EXECUTIVE SUMMARY
 # ============================================================
 st.markdown("""
